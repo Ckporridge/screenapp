@@ -10,15 +10,21 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         ZStack {
-            Color.red
-            Text("Hello, world!")
-                
-            
+            Color.blue
+            VStack{
+                Text("Cheng Kun")
+                    .foregroundStyle(.white)
+                    .font(.largeTitle)
+                    .bold()
+                Text("Guanzi")
+                    .foregroundStyle(.white)
+                    .font(.largeTitle)
+                    .bold()
+            }
         }
-        
-        .ignoresSafeArea()
+            .ignoresSafeArea()
+        }
     }
-}
 
 #Preview {
     ContentView()
