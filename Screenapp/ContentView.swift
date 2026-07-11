@@ -20,6 +20,10 @@ struct ContentView: View {
                     .foregroundStyle(.white)
                     .font(.largeTitle)
                     .bold()
+                Text("Yun Hee")
+                    .foregroundStyle(.white)
+                    .font(.largeTitle)
+                    .bold()
             }
         }
             .ignoresSafeArea()
